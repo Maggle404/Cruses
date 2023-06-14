@@ -26,8 +26,6 @@
 
             <h1>Gestion des produits</h1>
 
-            <p>TODO : Ajouter une page à fin de modification pour chacune des produits ci-dessous. S'inspirer de la page produits.php et afficher un ID en paramètre GET afin de modifier la description. Afficher les valeurs dans des inputs de champs pré-remplis.</p>
-
         </section>
 
         <section>

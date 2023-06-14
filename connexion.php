@@ -49,7 +49,7 @@
 
                         // Crypter le mot de passe avec la fonction sha 256.
 
-                        $password = hash('sha256', $password);
+                        //$password = hash('sha256', $password);
 
                         // Connexion à la base de données grâce à PDO et aux credentials du fichier .env.
 

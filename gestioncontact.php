@@ -26,8 +26,6 @@
 
             <h1>Gestion des prises de contact</h1>
 
-            <p>TODO : Afficher les prises de contact ci-dessous : </p>
-
         </section>
 
         <section>
