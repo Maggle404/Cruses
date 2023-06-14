@@ -24,7 +24,7 @@
 
             try {
                     
-                $bdd = new PDO('http://localhost/phpmyadmin/index.php?route=/database/structure&db=cruses', 'root', '');
+                $bdd = new PDO('mysql:host=localhost;dbname=lucas.briand;charset=utf8', 'root', '');
 
             } catch (Exception $e) {
 
