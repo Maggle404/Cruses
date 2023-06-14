@@ -10,7 +10,7 @@
         
         // Si l'on se trouve sur la page de connexion, rediriger vers la page d'administration.
         
-        if ($_SERVER['PHP_SELF'] == '/lenny.mallet/connexion.php') {
+        if ($_SERVER['PHP_SELF'] == '/mallet.lenny/connexion.php') {
             
             header('Location: admin.php');
             
@@ -20,7 +20,7 @@
         
         // Si nous ne sommes pas sur la page de connexion, rediriger vers la page de connexion.
 
-        if ($_SERVER['PHP_SELF'] != '/lenny.mallet/connexion.php') {
+        if ($_SERVER['PHP_SELF'] != '/mallet.lenny/connexion.php') {
             
             header('Location: connexion.php');
             

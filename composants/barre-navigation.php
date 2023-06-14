@@ -2,7 +2,7 @@
 
     //  Si l'on ne se trouve pas sur la page de connexion ou de l'administration, ou qu'on ne se trouve pas dans un des onglets de l'administration, démarrer une session.
     
-    if ($_SERVER['PHP_SELF'] != '/lenny.mallet/connexion.php' && $_SERVER['PHP_SELF'] != '/lenny.mallet/admin.php' && $_SERVER['PHP_SELF'] != '/lenny.mallet/gestioncroix.php' && $_SERVER['PHP_SELF'] != '/lenny.mallet/gestionproduit.php' && $_SERVER['PHP_SELF'] != '/lenny.mallet/gestioncontact.php') {
+    if ($_SERVER['PHP_SELF'] != '/mallet.lenny/connexion.php' && $_SERVER['PHP_SELF'] != '/mallet.lenny/admin.php' && $_SERVER['PHP_SELF'] != '/mallet.lenny/gestioncroix.php' && $_SERVER['PHP_SELF'] != '/mallet.lenny/gestionproduit.php' && $_SERVER['PHP_SELF'] != '/mallet.lenny/gestioncontact.php') {
         
         session_start();
         
@@ -14,7 +14,7 @@
 
     <div class="logo">
 
-        <a href="/lenny.mallet/accueil.php"><img id="logo" src="img/1200px-Cross-Pattee-Alisee.svg.png" alt="logo"></a>
+        <a href="/mallet.lenny/accueil.php"><img id="logo" src="img/1200px-Cross-Pattee-Alisee.svg.png" alt="logo"></a>
 
     </div>
 
