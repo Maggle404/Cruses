@@ -14,7 +14,7 @@
 
     <div class="logo">
 
-        <a href="/accueil.php"><img id="logo" src="img/1200px-Cross-Pattee-Alisee.svg.png" alt="logo"></a>
+        <a href="/lenny.mallet/accueil.php"><img id="logo" src="img/1200px-Cross-Pattee-Alisee.svg.png" alt="logo"></a>
 
     </div>
 
