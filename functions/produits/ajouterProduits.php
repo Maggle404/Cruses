@@ -24,7 +24,7 @@
 
                     try {
                             
-                        $bdd = new PDO('mysql:host=localhost;dbname=lucas.briand;charset=utf8', 'root', '');
+                        $bdd = new PDO('mysql:host=localhost;dbname=lenny.mallet;charset=utf8', 'root', '');
 
                     } catch (Exception $e) {
 
