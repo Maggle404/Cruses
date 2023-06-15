@@ -42,6 +42,8 @@
 
                 <a href="gestioncontact.php">Gestion des contacts</a>
 
+                <a href="historique.php">Historique des commandes</a>
+
             </div>
 
         </section>
